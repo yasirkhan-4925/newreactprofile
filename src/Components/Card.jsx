@@ -19,7 +19,6 @@ const useStyles = makeStyles({
 
 export default function MediaCard(props) {
   const classes = useStyles();
-  
 
   return (
     <Card className={classes.root}>
@@ -31,19 +30,17 @@ export default function MediaCard(props) {
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
-            {props.title}
+          {props.title}
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
-            {props.details}
+        {props.details}
           </Typography>
         </CardContent>
       </CardActionArea>
       <CardActions>
-         
-        <Button href={props.buttonlink}  size="large" variant="outlined" color="secondary" style={{width:"100%"}} >
+        <Button style={{width:"100%",backgroundColor:"#ee5253", color:"white"}} href={props.buttonlink} size="small" color="secondary">
           Check
         </Button>
-     
         
       </CardActions>
     </Card>

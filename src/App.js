@@ -1,13 +1,17 @@
 import React from 'react'
-import Header from './Header.jsx'
-import MyCard from './MyCard.jsx'
+import Header from './Components/Header.jsx'
+import ShownData from './Components/ShownData.jsx'
+
+
 
 
 function App(){
     return(
        <div>
         <Header/>
-        <MyCard/>
+        <ShownData/>
+
+       
        </div>
     )
 }
