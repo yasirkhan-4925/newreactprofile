@@ -26,7 +26,7 @@ export default function MediaCard(props) {
         <CardMedia
           className={classes.media}
           image={props.imagelink}
-          title="Contemplative Reptile"
+          title=""
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
@@ -38,7 +38,7 @@ export default function MediaCard(props) {
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button style={{width:"100%",backgroundColor:"#ee5253", color:"white"}} href={props.buttonlink} size="small" color="secondary">
+        <Button style={{width:"100%",backgroundColor:"#ee5253", color:"white",padding:"5px"}} href={props.buttonlink} size="small" color="secondary">
           Check
         </Button>
         
