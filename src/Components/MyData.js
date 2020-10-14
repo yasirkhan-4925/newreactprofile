@@ -10,11 +10,19 @@ import quizapp from '../images/quizapp.png'
 import insertdata from '../images/insertData.png'
 import dynamicgreetings from '../images/firstreactapp.png'
 import chatapp from '../images/chatapp.png'
+import memegenerator from '../images/MemeGenerator.png'
 
 
 
 
 const MyData=[
+
+    {
+        title:"Meme Generator" ,
+        details:"Simple react App which is using api for random image and generate image on click",
+        buttonlink:"https://memegenbyyasir.web.app/" ,
+        imagelink:memegenerator
+    },
 
     {
         title:"GroupChat App" ,

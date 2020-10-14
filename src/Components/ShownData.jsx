@@ -32,6 +32,7 @@ class ShownData extends React.Component {
         this.loadMoreData();
       }
     );
+    window.scroll(0,0)
   };
 
   loadMoreData() {
