@@ -11,11 +11,32 @@ import insertdata from '../images/insertData.png'
 import dynamicgreetings from '../images/firstreactapp.png'
 import chatapp from '../images/chatapp.png'
 import memegenerator from '../images/MemeGenerator.png'
+import reactProject from '../images/reactProject.png'
+import bookList  from '../images/booklist.png'
+import amazoneclone from '../images/amazoneclone.png'
 
 
 
 
 const MyData=[
+    {
+        title:" React js Amazone Clone" ,
+        details:"Basic Amazone clone made with firebase authentication and react context api",
+        buttonlink:"https://amzclonebyyasir.web.app/" ,
+        imagelink:amazoneclone
+    },
+    {
+        title:"React Book List App" ,
+        details:"React book list app made with hooks and context api with local storage",
+        buttonlink:"https://react-book-list.web.app/" ,
+        imagelink:bookList
+    },
+    {
+        title:"React Redux Posting App" ,
+        details:"Simple React Redux posting app with firebase email authentication",
+        buttonlink:"https://react-nn-project.web.app/signin" ,
+        imagelink:reactProject
+    },
 
     {
         title:"Meme Generator" ,
