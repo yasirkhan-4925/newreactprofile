@@ -14,11 +14,18 @@ import memegenerator from '../images/MemeGenerator.png'
 import reactProject from '../images/reactProject.png'
 import bookList  from '../images/booklist.png'
 import amazoneclone from '../images/amazoneclone.png'
+import githubsearch from '../images/githubsearch.png'
 
 
 
 
-const MyData=[
+const MyData = [
+    {
+        title:"Git Hub searcher" ,
+        details:"Github profile searcher with react context api",
+        buttonlink:"https://githubsearch4925.web.app" ,
+        imagelink:githubsearch
+    },
     {
         title:" React js Amazone Clone" ,
         details:"Basic Amazone clone made with firebase authentication and react context api",

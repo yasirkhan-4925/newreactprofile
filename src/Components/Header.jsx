@@ -9,9 +9,10 @@ function Header(){
           <div className="container-fluid bg-danger">
 
 
-               <h1 className="text-light text-center my-2">Saylani Web and Mobile Course</h1>
-               <h3 className="text-light text-center my-2">Name : Muhammad Yasir Khan</h3>
-               <h2 className="text-light text-center my-2">Roll No: WM-8601</h2>
+              
+               <h2 className="text-light text-center my-2"> Muhammad Yasir Khan</h2>
+                    <h3 className="text-light text-center my-2">MERN stack developer</h3>
+                    <h4 className="text-light text-center my-2">Student of BSCS at federal urdu university</h4>
 
                <br/> 
                <br/>
